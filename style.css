@@ -120,3 +120,30 @@ h2 {
   position: absolute;
   bottom: 0;
 }
+
+.product-description {
+  padding: 0 1rem 0;
+}
+
+.interactive {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--background-body);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+}
+
+.price {
+  background-color: var(--card-color);
+  padding: 0.5rem;
+  text-align: center;
+  color: var(--dark-text);
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.interactive-selection {
+  margin: 1rem;
+}
