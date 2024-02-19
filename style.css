@@ -55,7 +55,7 @@
 
 html {
   font-family: Quicksand, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 body {
@@ -127,7 +127,7 @@ h2 {
 
 .interactive {
   margin: 1rem;
-  padding: 1rem;
+  padding: 0 1rem;
   background-color: var(--background-body);
   display: flex;
   flex-direction: column;
@@ -144,6 +144,30 @@ h2 {
   border-radius: 0.5rem;
 }
 
-.interactive-selection {
-  margin: 1rem;
+/* .interactive-selection {
+  margin: 1rem 0;
+  display: flex;
+} */
+.interactive-selection select {
+  width: 3.5rem;
+  text-align: start;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.selection-size {
+  margin-right: 4rem;
+}
+
+.selection-color {
+  margin: 1rem 0;
+}
+
+.interactive button {
+  background-color: var(--button-color);
+  color: var(--card-color);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
 }
