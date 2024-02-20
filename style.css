@@ -51,6 +51,7 @@
   --button-color: #485fb9;
   --text-color: #7e7e7e;
   --dark-text: black;
+  --item-color: royalblue;
 }
 
 html {
@@ -161,6 +162,29 @@ h2 {
 
 .selection-color {
   margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+.selection-color input {
+  margin: 0.25rem;
+  appearance: none;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--item-color);
+  border: 2px solid var(--background-body);
+}
+
+.selection-color input:checked {
+  box-shadow: 0 0 0 2px black;
+}
+
+.selection-red {
+  --item-color: firebrick;
+}
+
+.selection-black {
+  --item-color: black;
 }
 
 .interactive button {
