@@ -171,7 +171,7 @@ h2 {
   border-radius: 50%;
   height: 2rem;
   width: 2rem;
-  background-color: var(--item-color);
+  background: var(--item-color);
   border: 2px solid var(--background-body);
 }
 
@@ -185,6 +185,26 @@ h2 {
 
 .selection-black {
   --item-color: black;
+}
+
+.selection-green-black {
+  --item-color: linear-gradient(0.25turn, olive 50%, black 50%);
+}
+
+.selection-blue-black {
+  --item-color: linear-gradient(0.25turn, royalblue 50%, black 50%);
+}
+
+.selection-pink-black {
+  --item-color: linear-gradient(0.25turn, hotpink 50%, black 50%);
+}
+
+.selection-red-white {
+  --item-color: linear-gradient(0.25turn, firebrick 50%, white 50%);
+}
+
+.selection-black-white {
+  --item-color: linear-gradient(0.25turn, black 50%, white 50%);
 }
 
 .interactive button {
